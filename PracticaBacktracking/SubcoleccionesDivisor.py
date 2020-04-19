@@ -56,9 +56,9 @@ def __es_divisor(divisor, dividendos):
 def lee_lista(n):
     a = []
     if n > 0:
-        cadenaEntrada = input()
+        cadena_entrada = input()
         for i in range(0, n):
-            elemento = int(cadenaEntrada.split(" ")[i])
+            elemento = int(cadena_entrada.split(" ")[i])
             a.append(elemento)
 
     return a

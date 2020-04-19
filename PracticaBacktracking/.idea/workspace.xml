@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c1a33f4-5c70-4498-a92e-af23a5a20e26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pruebas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SubcoleccionesDivisor.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubcoleccionesDivisor.py" afterDir="false" />
     </list>
@@ -19,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Alberto Sierra &lt;alberto.sierra360@outlook.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1aj5KV3GCv6EbEjDIgqn36ki0WB" />
@@ -72,25 +76,41 @@
       <option name="presentableId" value="Default" />
       <updated>1587236098722</updated>
     </task>
+    <task id="LOCAL-00001" summary="Implementada la entrada por teclado&#10;Ahora el divisor es el menor de la lista, no el primero&#10;Status: Pasa las pruebas manuales pero hay un timeout en el juez">
+      <created>1587306285416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587306285416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implementada la entrada por teclado&#10;Ahora el divisor es el menor de la lista, no el primero&#10;Status: Pasa las pruebas manuales pero hay un timeout en el juez" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementada la entrada por teclado&#10;Ahora el divisor es el menor de la lista, no el primero&#10;Status: Pasa las pruebas manuales pero hay un timeout en el juez" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1367" height="185" key="GridCell.Tab.0.bottom" timestamp="1587306075646">
+    <state x="270" y="0" key="CommitChangelistDialog2" timestamp="1587306281969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587306075646" />
-    <state width="1367" height="185" key="GridCell.Tab.0.center" timestamp="1587306075646">
+    <state x="270" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587306281969" />
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom" timestamp="1587306317235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587306075646" />
-    <state width="1367" height="185" key="GridCell.Tab.0.left" timestamp="1587306075646">
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587306317235" />
+    <state width="1367" height="185" key="GridCell.Tab.0.center" timestamp="1587306317234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587306075646" />
-    <state width="1367" height="185" key="GridCell.Tab.0.right" timestamp="1587306075646">
+    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587306317234" />
+    <state width="1367" height="185" key="GridCell.Tab.0.left" timestamp="1587306317234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587306075646" />
+    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587306317234" />
+    <state width="1367" height="185" key="GridCell.Tab.0.right" timestamp="1587306317234">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587306317234" />
     <state width="1367" height="232" key="GridCell.Tab.1.bottom" timestamp="1587240324819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
