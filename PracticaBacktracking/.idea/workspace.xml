@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c1a33f4-5c70-4498-a92e-af23a5a20e26" name="Default Changelist" comment="" />
+    <list default="true" id="2c1a33f4-5c70-4498-a92e-af23a5a20e26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Pruebas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubcoleccionesDivisor.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubcoleccionesDivisor.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -64,38 +75,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1367" height="185" key="GridCell.Tab.0.bottom" timestamp="1587240121575">
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom" timestamp="1587306075646">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587240121575" />
-    <state width="1367" height="185" key="GridCell.Tab.0.center" timestamp="1587240121575">
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587306075646" />
+    <state width="1367" height="185" key="GridCell.Tab.0.center" timestamp="1587306075646">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587240121575" />
-    <state width="1367" height="185" key="GridCell.Tab.0.left" timestamp="1587240121574">
+    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587306075646" />
+    <state width="1367" height="185" key="GridCell.Tab.0.left" timestamp="1587306075646">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587240121574" />
-    <state width="1367" height="185" key="GridCell.Tab.0.right" timestamp="1587240121575">
+    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587306075646" />
+    <state width="1367" height="185" key="GridCell.Tab.0.right" timestamp="1587306075646">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587240121575" />
-    <state width="1367" height="232" key="GridCell.Tab.1.bottom" timestamp="1587240056788">
+    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587306075646" />
+    <state width="1367" height="232" key="GridCell.Tab.1.bottom" timestamp="1587240324819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="232" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587240056788" />
-    <state width="1367" height="232" key="GridCell.Tab.1.center" timestamp="1587240056787">
+    <state width="1367" height="232" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587240324819" />
+    <state width="1367" height="232" key="GridCell.Tab.1.center" timestamp="1587240324819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="232" key="GridCell.Tab.1.center/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587240056787" />
-    <state width="1367" height="232" key="GridCell.Tab.1.left" timestamp="1587240056787">
+    <state width="1367" height="232" key="GridCell.Tab.1.center/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587240324819" />
+    <state width="1367" height="232" key="GridCell.Tab.1.left" timestamp="1587240324819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="232" key="GridCell.Tab.1.left/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587240056787" />
-    <state width="1367" height="232" key="GridCell.Tab.1.right" timestamp="1587240056788">
+    <state width="1367" height="232" key="GridCell.Tab.1.left/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587240324819" />
+    <state width="1367" height="232" key="GridCell.Tab.1.right" timestamp="1587240324819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="232" key="GridCell.Tab.1.right/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587240056788" />
+    <state width="1367" height="232" key="GridCell.Tab.1.right/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587240324819" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1587236373249">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -104,16 +115,5 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587239520518" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/SubcoleccionesDivisor.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

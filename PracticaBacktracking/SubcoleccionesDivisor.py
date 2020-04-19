@@ -14,11 +14,11 @@ def subcolecciones_principal(coleccion, n, m):
 #               como una lista de un número porque de esta forma se puede modificar el valor desde la llamada recursiva
 def subcolecciones(i, coleccion, n, m, soluciones, s):
     # Caso Base: sub-colección completa
-    # Si la sub-coleccion tiene m elementos y el primero de ellos es el divisor de los demás, he encontrado una solución
+    # Si la sub-coleccion tiene m elementos y el menor de ellos es el divisor de los demás, he encontrado una solución
     # Como no es necesario mostrar la solución, simplemente sumo uno a la variable s
     if i == n:
         divisores = __recortar(coleccion, soluciones)
-        if len(divisores) == m and __es_divisor(divisores[0], divisores[1:]):
+        if len(divisores) == m and __es_divisor(min(divisores), divisores):
             s[0] = s[0] + 1
     else:
         for k in range(0, 2):
@@ -33,7 +33,7 @@ def subcolecciones(i, coleccion, n, m, soluciones, s):
 
 
 # Devuelve una lista con los elementos de coleccion que estaban a True en solucion
-# El primero de la lista deve ser divisor de los otros m-1 elementos
+# El menor de la lista debe ser divisor de todos los elementos
 def __recortar(coleccion, soluciones):
     if soluciones == [] and coleccion == []:
         return []
@@ -52,14 +52,20 @@ def __es_divisor(divisor, dividendos):
         return (dividendos[0] % divisor == 0) and __es_divisor(divisor, dividendos[1:])
 
 
-n = 5
-coleccion = [2, 2, 4, 5, 7]
-m = 2
+# Función iterativa para leer una lista de n números enteros
+def lee_lista(n):
+    a = []
+    if n > 0:
+        cadenaEntrada = input()
+        for i in range(0, n):
+            elemento = int(cadenaEntrada.split(" ")[i])
+            a.append(elemento)
 
-"""
-soluciones = [0, 1, 0, 1, 0]
-divisores = recortar(coleccion, soluciones)
-print(es_divisor(divisores[0], divisores[1:]))
-"""
+    return a
+
+
+n = int(input())
+coleccion = lee_lista(n)
+m = int(input())
 
 subcolecciones_principal(coleccion, n, m)
