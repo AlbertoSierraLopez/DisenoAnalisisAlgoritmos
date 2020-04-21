@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c1a33f4-5c70-4498-a92e-af23a5a20e26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SubcoleccionesDivisor_v2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pruebas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pruebas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubcoleccionesDivisor_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubcoleccionesDivisor_v2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,27 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.SubcoleccionesDivisor_v2">
+    <configuration name="Pruebas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PracticaBacktracking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pruebas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SubcoleccionesDivisor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PracticaBacktracking" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,6 +110,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.SubcoleccionesDivisor_v2" />
+        <item itemvalue="Python.Pruebas" />
         <item itemvalue="Python.SubcoleccionesDivisor" />
       </list>
     </recent_temporary>
@@ -117,54 +140,66 @@
       <option name="project" value="LOCAL" />
       <updated>1587307065166</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Versión 2: el algoritmo detiene las llamadas recursivas cuando ya hay m elementos en la sub-colección.">
+      <created>1587497253804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587497253804</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementada la entrada por teclado&#10;Ahora el divisor es el menor de la lista, no el primero&#10;Status: Pasa las pruebas manuales pero hay un timeout en el juez" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementada la entrada por teclado&#10;Ahora el divisor es el menor de la lista, no el primero&#10;Status: Pasa las pruebas manuales pero hay un timeout en el juez" />
+    <MESSAGE value="Versión 2: el algoritmo detiene las llamadas recursivas cuando ya hay m elementos en la sub-colección." />
+    <option name="LAST_COMMIT_MESSAGE" value="Versión 2: el algoritmo detiene las llamadas recursivas cuando ya hay m elementos en la sub-colección." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="270" y="0" key="CommitChangelistDialog2" timestamp="1587307062665">
+    <state x="270" y="0" key="CommitChangelistDialog2" timestamp="1587497251176">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="270" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587307062665" />
-    <state width="1367" height="232" key="GridCell.Tab.0.bottom" timestamp="1587496952068">
+    <state x="270" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497251176" />
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom" timestamp="1587497964847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="232" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587496952068" />
-    <state width="1367" height="232" key="GridCell.Tab.0.center" timestamp="1587496952068">
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497964847" />
+    <state width="1367" height="185" key="GridCell.Tab.0.center" timestamp="1587497964847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="232" key="GridCell.Tab.0.center/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587496952068" />
-    <state width="1367" height="232" key="GridCell.Tab.0.left" timestamp="1587496952068">
+    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497964847" />
+    <state width="1367" height="185" key="GridCell.Tab.0.left" timestamp="1587497964846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="232" key="GridCell.Tab.0.left/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587496952068" />
-    <state width="1367" height="232" key="GridCell.Tab.0.right" timestamp="1587496952068">
+    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497964846" />
+    <state width="1367" height="185" key="GridCell.Tab.0.right" timestamp="1587497964847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="232" key="GridCell.Tab.0.right/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587496952068" />
-    <state width="1367" height="232" key="GridCell.Tab.1.bottom" timestamp="1587496975406">
+    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497964847" />
+    <state width="1367" height="232" key="GridCell.Tab.1.bottom" timestamp="1587497950264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="232" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587496975406" />
-    <state width="1367" height="232" key="GridCell.Tab.1.center" timestamp="1587496975406">
+    <state width="1367" height="232" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497950264" />
+    <state width="1367" height="232" key="GridCell.Tab.1.center" timestamp="1587497950264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="232" key="GridCell.Tab.1.center/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587496975406" />
-    <state width="1367" height="232" key="GridCell.Tab.1.left" timestamp="1587496975406">
+    <state width="1367" height="232" key="GridCell.Tab.1.center/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497950264" />
+    <state width="1367" height="232" key="GridCell.Tab.1.left" timestamp="1587497950264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="232" key="GridCell.Tab.1.left/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587496975406" />
-    <state width="1367" height="232" key="GridCell.Tab.1.right" timestamp="1587496975406">
+    <state width="1367" height="232" key="GridCell.Tab.1.left/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497950264" />
+    <state width="1367" height="232" key="GridCell.Tab.1.right" timestamp="1587497950264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="232" key="GridCell.Tab.1.right/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587496975406" />
+    <state width="1367" height="232" key="GridCell.Tab.1.right/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497950264" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1587236373249">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587236373249" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587497284747">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497284747" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587239520518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -175,8 +210,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/SubcoleccionesDivisor_v2.py</url>
-          <line>73</line>
+          <line>74</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pruebas.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
