@@ -1,5 +1,5 @@
 def subcolecciones_principal(coleccion, n, m):
-    subcoleccion = [0] * n
+    subcoleccion = []
     s = [0]
     subcolecciones(0, coleccion, n, m, 0, subcoleccion, s)
     print(s[0])
@@ -18,22 +18,20 @@ def subcolecciones(i, coleccion, n, m, ns, subcoleccion, s):
     # Si la sub-coleccion tiene m elementos y el menor de ellos es el divisor de los demás, he encontrado una solución
     # Como no es necesario mostrar la solución, simplemente sumo uno a la variable s
     if ns == m or i == n:
-        divisores = __recortar(coleccion, subcoleccion)
-        if len(divisores) == m and __es_divisor(min(divisores), divisores, 0):
+        if len(subcoleccion) == m and __es_divisor(min(subcoleccion), subcoleccion, 0):
             s[0] = s[0] + 1
     else:
         for k in range(0, 2):
-            # Ramificación en el arbol, se inserta o no el candidato coleccion[i] en la solucion parcial
-            subcoleccion[i] = k
-
             # Se expande la solucion
             if k == 0:
                 subcolecciones(i + 1, coleccion, n, m, ns, subcoleccion, s)
             else:
+                subcoleccion.append(coleccion[i])
                 subcolecciones(i + 1, coleccion, n, m, ns + 1, subcoleccion, s)
 
-            # Se deshace el candidato
-            subcoleccion[i] = 0
+            if k == 1:
+                # Se deshace el candidato
+                subcoleccion.pop()
 
 
 # Devuelve una lista con los elementos de coleccion que estaban a True en solucion

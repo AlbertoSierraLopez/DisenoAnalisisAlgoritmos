@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2c1a33f4-5c70-4498-a92e-af23a5a20e26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pruebas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pruebas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SubcoleccionesDivisor_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubcoleccionesDivisor_v2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,35 +146,43 @@
       <option name="project" value="LOCAL" />
       <updated>1587497253804</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Versión 2: el método es_divisor ahora es más eficiente porque trabaja con índices y no con sublistas">
+      <created>1587498048821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587498048821</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementada la entrada por teclado&#10;Ahora el divisor es el menor de la lista, no el primero&#10;Status: Pasa las pruebas manuales pero hay un timeout en el juez" />
     <MESSAGE value="Versión 2: el algoritmo detiene las llamadas recursivas cuando ya hay m elementos en la sub-colección." />
-    <option name="LAST_COMMIT_MESSAGE" value="Versión 2: el algoritmo detiene las llamadas recursivas cuando ya hay m elementos en la sub-colección." />
+    <MESSAGE value="Versión 2: el método es_divisor ahora es más eficiente porque trabaja con índices y no con sublistas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Versión 2: el método es_divisor ahora es más eficiente porque trabaja con índices y no con sublistas" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="270" y="0" key="CommitChangelistDialog2" timestamp="1587497251176">
+    <state x="231" y="0" key="CommitChangelistDialog2" timestamp="1587498045739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="270" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497251176" />
-    <state width="1367" height="185" key="GridCell.Tab.0.bottom" timestamp="1587497964847">
+    <state x="231" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587498045739" />
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom" timestamp="1587498652095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497964847" />
-    <state width="1367" height="185" key="GridCell.Tab.0.center" timestamp="1587497964847">
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587498652095" />
+    <state width="1367" height="185" key="GridCell.Tab.0.center" timestamp="1587498652095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497964847" />
-    <state width="1367" height="185" key="GridCell.Tab.0.left" timestamp="1587497964846">
+    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587498652095" />
+    <state width="1367" height="185" key="GridCell.Tab.0.left" timestamp="1587498652095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497964846" />
-    <state width="1367" height="185" key="GridCell.Tab.0.right" timestamp="1587497964847">
+    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587498652095" />
+    <state width="1367" height="185" key="GridCell.Tab.0.right" timestamp="1587498652095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497964847" />
+    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587498652095" />
     <state width="1367" height="232" key="GridCell.Tab.1.bottom" timestamp="1587497950264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -196,10 +203,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587236373249" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587497284747">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587498057924">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587497284747" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587498057924" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587239520518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -210,13 +217,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/SubcoleccionesDivisor_v2.py</url>
-          <line>74</line>
+          <line>72</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Pruebas.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
