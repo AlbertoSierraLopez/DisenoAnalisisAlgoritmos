@@ -10,12 +10,12 @@ def subcolecciones_principal(coleccion, n, m):
 # n:            tamaño del vector de numeros
 # m:            tamaño de la subcolección
 # ns:           número de elementos de la subcolección
-# soluciones:   vector de boolenos que representa la subcolección
+# subcoleccion: subcoleccion de elementos de la colección
 # s:            número de subcolecciones de tamaño m que cumplen las restricciones, está implementado
 #               como una lista de un número porque de esta forma se puede modificar el valor desde la llamada recursiva
 def subcolecciones(i, coleccion, n, m, ns, subcoleccion, s):
-    # Caso Base: sub-colección completa
-    # Si la sub-coleccion tiene m elementos y el menor de ellos es el divisor de los demás, he encontrado una solución
+    # Caso Base: subcolección completa
+    # Si la subcoleccion tiene m elementos y el menor de ellos es el divisor de los demás, he encontrado una solución
     # Como no es necesario mostrar la solución, simplemente sumo uno a la variable s
     if ns == m or i == n:
         if len(subcoleccion) == m and __es_divisor(min(subcoleccion), subcoleccion, 0):
@@ -32,18 +32,6 @@ def subcolecciones(i, coleccion, n, m, ns, subcoleccion, s):
             if k == 1:
                 # Se deshace el candidato
                 subcoleccion.pop()
-
-
-# Devuelve una lista con los elementos de coleccion que estaban a True en solucion
-# El menor de la lista debe ser divisor de todos los elementos
-def __recortar(coleccion, soluciones):
-    if soluciones == [] and coleccion == []:
-        return []
-    else:
-        if soluciones[0]:
-            return [coleccion[0]] + __recortar(coleccion[1:], soluciones[1:])
-        else:
-            return __recortar(coleccion[1:], soluciones[1:])
 
 
 # Comprueba si el divisor es divisor de todos los números de la lista dividendos
