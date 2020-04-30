@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c1a33f4-5c70-4498-a92e-af23a5a20e26" name="Default Changelist" comment="Versión 2: ahora la subcolección no es una lista de booleanos, es directamente la subcolección">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2c1a33f4-5c70-4498-a92e-af23a5a20e26" name="Default Changelist" comment="Versión 2: ahora la subcolección no es una lista de booleanos, es directamente la subcolección" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PracticaVoraz" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -174,6 +172,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="231" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1587499711978" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1588287828889">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.-256.1280.984@0.0.1366.728" timestamp="1588287828889" />
     <state width="1367" height="232" key="GridCell.Tab.0.bottom" timestamp="1587499777971">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -224,7 +226,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/SubcoleccionesDivisor_v2.py</url>
-          <line>72</line>
+          <line>60</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
