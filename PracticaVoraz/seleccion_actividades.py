@@ -44,7 +44,7 @@ def lee_lista(n):
 ####################
 
 
-n = 11                                      # n = int(input())
-s = [1, 2, 0, 5, 8, 5, 6, 8, 3, 3, 12]      # s = lee_lista(n)
-f = [4, 13, 6, 7, 12, 9, 10, 11, 8, 5, 14]  # f = lee_lista(n)
+n = int(input())
+s = lee_lista(n)
+f = lee_lista(n)
 print(seleccion_actividades(n, s, f))
