@@ -1,3 +1,4 @@
+# Esta es la versión básica, se puede hacer con búsqueda binaria
 def Woodcutter(t, w, h):
     madera = 0
     for i in t:
