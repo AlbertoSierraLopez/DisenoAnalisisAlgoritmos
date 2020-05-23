@@ -16,7 +16,6 @@ def Restar_Polinomios(p, q):
         return p
     elif gp == 0:
         return Restar_Polinomios(p, q[:gq - 1]) + [- q[gq - 1]]
-
     else:
         return Restar_Polinomios(p[:gp - 1], q[:gq - 1]) + [p[gp - 1] - q[gq - 1]]
 
