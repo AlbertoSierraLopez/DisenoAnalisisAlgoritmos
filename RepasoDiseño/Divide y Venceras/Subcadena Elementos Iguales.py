@@ -27,8 +27,8 @@ def Subcadena_Elementos_Iguales_Mas_Larga_ALT(a):
         if len(aux) == k - 1 and a[0] == aux[0]:
             return a
         else:
-            a1 = Subcadena_Elementos_Iguales_Mas_Larga(a[:len(a) - 1])
-            a2 = Subcadena_Elementos_Iguales_Mas_Larga(a[1:])
+            a1 = Subcadena_Elementos_Iguales_Mas_Larga_ALT(a[:len(a) - 1])
+            a2 = Subcadena_Elementos_Iguales_Mas_Larga_ALT(a[1:])
             if len(a1) > len(a2):
                 return a1
             else:
