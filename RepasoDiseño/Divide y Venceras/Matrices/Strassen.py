@@ -42,8 +42,8 @@ def Strassen_Wrapper(A, B):
     k = np.ceil(np.log2(n))
     k = int(2 ** k)
 
-    Ap = np.pad(A, ((0, k - p), (0, k - q)), 'constant')
-    Bp = np.pad(B, ((0, k - q), (0, k - r)), 'constant')
+    Ap = np.pad(A, ((0, k - p), (0, k - q)))
+    Bp = np.pad(B, ((0, k - q), (0, k - r)))
 
     print(Ap)
     print(Bp)
