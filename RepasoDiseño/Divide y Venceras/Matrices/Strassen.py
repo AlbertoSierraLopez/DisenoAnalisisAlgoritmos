@@ -40,17 +40,27 @@ def Strassen_Wrapper(A, B):
 
     n = max(p, q, r)
     k = np.ceil(np.log2(n))
-    k = 2 ** k
+    k = int(2 ** k)
 
     Ap = np.pad(A, ((0, k - p), (0, k - q)), 'constant')
     Bp = np.pad(B, ((0, k - q), (0, k - r)), 'constant')
 
+    print(Ap)
+    print(Bp)
+
     return Strassen(Ap, Bp)
 
 
+A = np.array([[1, 1],
+              [0, 1],
+              [1, 0]])
+B = np.array([[2, 1, 3, 1],
+              [1, 0, 4, 2]])
+"""
 A = np.array([[1, 0],
               [2, 1]])
 B = np.array([[2, 3],
               [1, 2]])
-
-print(Strassen(A, B))
+"""
+print(Strassen_Wrapper(A, B))
+print("control:\n", np.dot(A, B))

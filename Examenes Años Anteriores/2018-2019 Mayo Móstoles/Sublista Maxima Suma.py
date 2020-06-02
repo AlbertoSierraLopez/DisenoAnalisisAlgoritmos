@@ -56,4 +56,5 @@ def maxima_suma_sublista(a):
     return max(max_mitad_izq, max_mitad_dcha, max_izq + max_dcha)
 
 a = [-1, -4, 5, 2, -3, 4, 2, -5]
+print(Sublista_Maxima_Suma(a), sum(Sublista_Maxima_Suma(a)))
 print(maxima_suma_sublista(a))
