@@ -3,7 +3,7 @@ def Regla_Imperial(n, k):
     if n == 0:
         for i in range(k + 1):
             print("-", end='')
-        print(n)
+        print('', n)
     else:
         Regla_Imperial(n - 1, k)
         Separacion(k)

@@ -20,7 +20,6 @@ def Suma_Subconjunto_Menor_Cardinal(S, n, i, x, sol_parcial, cardinal_parcial, s
     return cardinal_mejor
 
 
-
 def Suma_Subconjunto_Menor_Cardinal_Wrapper(S, x):
     n = len(S)
     sol_parcial = [0] * n
