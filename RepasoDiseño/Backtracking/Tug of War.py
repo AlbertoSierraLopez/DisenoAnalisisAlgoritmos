@@ -25,7 +25,7 @@ def Tug_of_War(T, n, s, i, num_elem, sol_parcial, suma_parcial, diferencia_parci
             diferencia_previa = diferencia_parcial
             diferencia_parcial = abs(s - suma_parcial * 2)
 
-            if num_elem <= n // 2:
+            if num_elem <= n // 2 and abs((i + 1) - num_elem) <= n // 2:     # Si me he pasado de n // 2 elementos o ya no voy a llegar, se poda el árbol
                 diferencia_mejor = Tug_of_War(T, n, s, i + 1, num_elem, sol_parcial, suma_parcial, diferencia_parcial, sol_mejor, diferencia_mejor)
 
             num_elem -= k
