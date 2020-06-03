@@ -10,7 +10,7 @@ def koch_curve(p, q, n):
         v = q - p
         koch_curve(p, p + v / 3, n - 1)
 
-        R_60 = np.matrix([[math.cos(math.pi / 3),
+        R_60 = np.array([[math.cos(math.pi / 3),
                            -math.sin(math.pi / 3)],
                           [math.sin(math.pi / 3),
                            math.cos(math.pi / 3)]])
