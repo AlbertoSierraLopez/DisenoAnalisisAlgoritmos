@@ -5,9 +5,9 @@ def Tug_of_War_Wrapper(T):
     sol_parcial = [0] * n
     sol_mejor = [0] * n
     diferencia_mejor = Tug_of_War(T, n, s, 0, 0, sol_parcial, 0, s, sol_mejor, s)
-    print(T)
-    print(sol_mejor)
-    print(diferencia_mejor)
+    print("conjunto", T)
+    print("solución", sol_mejor)
+    print("diferencia", diferencia_mejor)
     return 0
 
 
