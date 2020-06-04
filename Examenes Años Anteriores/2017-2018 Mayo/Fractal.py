@@ -5,7 +5,7 @@ from matplotlib.patches import Rectangle
 def Fractal(n, s, p):
 
     if n == 1:
-        Dibuja_Cuadrado(p, s)
+        Dibuja_Cuadrado(p, 2 * s)
     else:
         p11 = np.add(p, [-(2 * s), (2 * s)])
         p12 = np.add(p, [(2 * s), (2 * s)])
@@ -17,7 +17,7 @@ def Fractal(n, s, p):
         Fractal(n - 1, p21, s // 2)
         Fractal(n - 1, p22, s // 2)
 
-        Dibuja_Cuadrado(p, s)
+        Dibuja_Cuadrado(p, 2 * s)
 
 
 def Dibuja_Cuadrado(p, s):

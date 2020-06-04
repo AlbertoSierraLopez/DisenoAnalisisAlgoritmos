@@ -21,7 +21,7 @@ def Digitos(n, sol):
 
 
 def Interseccion(sol1, sol2, sol):
-    for i in range(len(sol)):
+    for i in range(10):
         if sol1[i] and sol2[i]:
             sol[i] = True
 
